@@ -1,0 +1,133 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f7f9fb, #e2eafc);
+  min-height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  margin-top: 3rem;
+}
+
+h2 {
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+form input[type="file"],
+form input[type="password"],
+form input[type="text"] {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+}
+
+.btn-primary {
+  background-color: #3366cc;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #264d99;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.alert-warning {
+  text-align: center;
+}
+
+footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+
+/* Container and layout */
+.container {
+  background-color: #fff;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  max-width: 1000px;
+  margin-top: 3rem;
+}
+
+/* Table styles */
+table {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}
+
+th {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+input[type="password"] {
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.4rem;
+  border: 1px solid #ced4da;
+  margin-bottom: 0.4rem;
+  width: 100%;
+}
+
+/* Button spacing and sizing */
+.btn {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.9rem;
+  border-radius: 0.4rem;
+  margin: 0.1rem;
+}
+
+.btn-primary {
+  background-color: #3366cc;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #264d99;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #a71d2a;
+}
+
+.btn-secondary {
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+}
